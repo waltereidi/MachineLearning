@@ -1,0 +1,3 @@
+ .\my_env\Scripts\activate 
+ jupyter notebook
+ 
