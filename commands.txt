@@ -1,3 +1,16 @@
  .\my_env\Scripts\activate 
  jupyter notebook
  C:\Users\walte\AppData\Local\Programs\Python\Python310\python -m pip install "tensorflow<2.11"
+
+  C:\Users\walte\AppData\Local\Programs\Python\Python310\python -m venv my_env310
+   .\my_env310\Scripts\activate 
+    jupyter notebook
+
+
+
+C:\Users\walte\AppData\Local\Programs\Python\Python39\python -m venv my_env39
+    .\my_env39\Scripts\activate 
+    jupyter notebook
+
+    
+C:\Users\walte\AppData\Local\Programs\Python\Python39\python -m ipykernel install --user --name=my_env310 --display-name "Python (my_env39)"
