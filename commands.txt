@@ -14,3 +14,6 @@ C:\Users\walte\AppData\Local\Programs\Python\Python39\python -m venv my_env39
 
     
 C:\Users\walte\AppData\Local\Programs\Python\Python39\python -m ipykernel install --user --name=my_env310 --display-name "Python (my_env39)"
+
+ .\env39\Scripts\activate      
+ jupyter notebook
