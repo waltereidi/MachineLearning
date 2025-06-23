@@ -17,3 +17,11 @@ C:\Users\walte\AppData\Local\Programs\Python\Python39\python -m ipykernel instal
 
  .\env39\Scripts\activate      
  jupyter notebook
+
+
+ C:\Users\walte\AppData\Local\Programs\Python\Python39\python -m venv env39clean
+ .\env39clean\Scripts\Activate.ps1
+ .\env39clean\Scripts\activate.bat
+ pip install --upgrade pip setuptools wheel
+ pip install jupyter tensorflow numpy matplotlib scikit-learn
+ jupyter notebook
