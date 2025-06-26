@@ -19,9 +19,13 @@ C:\Users\walte\AppData\Local\Programs\Python\Python39\python -m ipykernel instal
  jupyter notebook
 
 
- C:\Users\walte\AppData\Local\Programs\Python\Python39\python -m venv env39clean
+ C:\Users\walte\AppData\Local\Programs\Python\Python39\python3.9 -m venv env39clean
  .\env39clean\Scripts\Activate.ps1
  .\env39clean\Scripts\activate.bat
  pip install --upgrade pip setuptools wheel
  pip install jupyter tensorflow numpy matplotlib scikit-learn
  jupyter notebook
+
+
+source env39clean/Scripts/activate
+python3.9 -m notebook
